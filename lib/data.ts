@@ -282,6 +282,100 @@ export const PROJECTS: IProject[] = [
             I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
         role: ``,
     },
+    {
+        title: 'Cyberflix',
+        slug: 'cyberflix',
+        year: 2024,
+        description: `Plateforme de streaming de films et séries offrant un catalogue complet, le visionnage de bandes-annonces, la recherche dynamique et des recommandations personnalisées avec une interface utilisateur moderne et réactive.`,
+        role: `Développeur Full-Stack <br/>
+        - Conception et développement de la plateforme de streaming.<br/>
+        - Intégration d'API pour la récupération des métadonnées de films et séries.<br/>
+        - Implémentation d'une interface responsive et dynamique avec Tailwind CSS et Next.js.`,
+        techStack: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'REST API'],
+        thumbnail: '/projects/images/protfolio_projets_images/cyberflix_1.png',
+        longThumbnail: '/projects/images/protfolio_projets_images/cyberflix_1.png',
+        images: [
+            '/projects/images/protfolio_projets_images/cyberflix_1.png',
+            '/projects/images/protfolio_projets_images/cyberflix_2.png',
+            '/projects/images/protfolio_projets_images/cyberflix_3.png',
+        ],
+    },
+    {
+        title: 'Miel Artisan',
+        slug: 'miel-artisan',
+        year: 2024,
+        description: `Site e-commerce élégant dédié à la présentation et la vente en ligne de miel naturel et produits apicoles artisanaux. Il intègre la gestion du panier, la présentation détaillée des produits et une expérience utilisateur fluide.`,
+        role: `Développeur Frontend <br/>
+        - Création d'une interface épurée et moderne pour la mise en valeur des produits de la ruche.<br/>
+        - Développement du catalogue interactif et du panier d'achat.<br/>
+        - Optimisation du référencement (SEO) et des performances.`,
+        techStack: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+        thumbnail: '/projects/images/protfolio_projets_images/miel_1.png',
+        longThumbnail: '/projects/images/protfolio_projets_images/miel_1.png',
+        images: [
+            '/projects/images/protfolio_projets_images/miel_1.png',
+            '/projects/images/protfolio_projets_images/miel_2.png',
+            '/projects/images/protfolio_projets_images/miel_3.png',
+        ],
+    },
+    {
+        title: 'ParaPharmacie',
+        slug: 'parapharmacie',
+        year: 2024,
+        description: `Application web e-commerce spécialisée dans les produits de soins, beauté et parapharmacie. Propose un filtrage par catégorie/marque, une recherche intelligente et la gestion complète des commandes.`,
+        role: `Développeur Full-Stack <br/>
+        - Développement des fonctionnalités e-commerce (catalogue, filtres, panier, commande).<br/>
+        - Conception d'un design responsive adapté aux mobiles et ordinateurs.<br/>
+        - Intégration de la gestion du stock et des catégories.`,
+        techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Redux'],
+        thumbnail: '/projects/images/protfolio_projets_images/paraPharmacie_1.png',
+        longThumbnail: '/projects/images/protfolio_projets_images/paraPharmacie_1.png',
+        images: [
+            '/projects/images/protfolio_projets_images/paraPharmacie_1.png',
+            '/projects/images/protfolio_projets_images/paraphrmacie_2.png',
+            '/projects/images/protfolio_projets_images/parapharmacie_3.png',
+            '/projects/images/protfolio_projets_images/parapharmacie_4.png',
+        ],
+    },
+    {
+        title: 'Modern E-Store',
+        slug: 'modern-estore',
+        year: 2024,
+        description: `Boutique en ligne moderne conçue pour une expérience d'achat optimale, incluant la navigation par catégories, la gestion du panier en temps réel et un design sobre et épuré.`,
+        role: `Développeur Full-Stack <br/>
+        - Conception de l'architecture frontend et backend.<br/>
+        - Implémentation de la gestion d'état globale pour le panier.<br/>
+        - Intégration d'un tunnel d'achat fluide.`,
+        techStack: ['React', 'Next.js', 'Tailwind CSS', 'Node.js'],
+        thumbnail: '/projects/images/protfolio_projets_images/store_1.png',
+        longThumbnail: '/projects/images/protfolio_projets_images/store_1.png',
+        images: [
+            '/projects/images/protfolio_projets_images/store_1.png',
+            '/projects/images/protfolio_projets_images/store_2.png',
+            '/projects/images/protfolio_projets_images/store_3.png',
+            '/projects/images/protfolio_projets_images/store_4.png',
+        ],
+    },
+    {
+        title: 'Sweet Delights',
+        slug: 'sweet-delights',
+        year: 2024,
+        description: `Plateforme vitrine et e-commerce gourmande pour une pâtisserie artisanale. Mise en valeur des créations pâtissières, commande en ligne et réservation personnalisée.`,
+        role: `Développeur Frontend <br/>
+        - Réalisation de l'interface visuelle attrayante et gourmande.<br/>
+        - Animations fluides pour la mise en avant des pâtisseries.<br/>
+        - Formulaire de commande et réservation sur mesure.`,
+        techStack: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+        thumbnail: '/projects/images/protfolio_projets_images/sweet_1.png',
+        longThumbnail: '/projects/images/protfolio_projets_images/sweet_1.png',
+        images: [
+            '/projects/images/protfolio_projets_images/sweet_1.png',
+            '/projects/images/protfolio_projets_images/sweet_2.png',
+            '/projects/images/protfolio_projets_images/sweet_3.png',
+            '/projects/images/protfolio_projets_images/sweet_4.png',
+            '/projects/images/protfolio_projets_images/sweet_5.png',
+        ],
+    },
 ];
 
 export const MY_EXPERIENCE = [
