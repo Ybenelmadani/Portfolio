@@ -288,10 +288,10 @@ export const PROJECTS: IProject[] = [
         year: 2024,
         description: `Plateforme de streaming de films et séries offrant un catalogue complet, le visionnage de bandes-annonces, la recherche dynamique et des recommandations personnalisées avec une interface utilisateur moderne et réactive.`,
         role: `Développeur Full-Stack <br/>
-        - Conception et développement de la plateforme de streaming.<br/>
-        - Intégration d'API pour la récupération des métadonnées de films et séries.<br/>
-        - Implémentation d'une interface responsive et dynamique avec Tailwind CSS et Next.js.`,
-        techStack: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript', 'REST API'],
+        - Développement du frontend dynamique avec React et Tailwind CSS.<br/>
+        - Création de l'API REST backend performante avec Express.js et Node.js.<br/>
+        - Intégration de la recherche, des catégories et de la lecture des médias.`,
+        techStack: ['React', 'Express.js', 'Node.js', 'Tailwind CSS', 'REST API'],
         thumbnail: '/projects/images/protfolio_projets_images/cyberflix_1.png',
         longThumbnail: '/projects/images/protfolio_projets_images/cyberflix_1.png',
         images: [
@@ -304,12 +304,12 @@ export const PROJECTS: IProject[] = [
         title: 'Miel Artisan',
         slug: 'miel-artisan',
         year: 2024,
-        description: `Site e-commerce élégant dédié à la présentation et la vente en ligne de miel naturel et produits apicoles artisanaux. Il intègre la gestion du panier, la présentation détaillée des produits et une expérience utilisateur fluide.`,
-        role: `Développeur Frontend <br/>
-        - Création d'une interface épurée et moderne pour la mise en valeur des produits de la ruche.<br/>
-        - Développement du catalogue interactif et du panier d'achat.<br/>
-        - Optimisation du référencement (SEO) et des performances.`,
-        techStack: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript'],
+        description: `Site e-commerce élégant développé avec Laravel, dédié à la présentation et la vente en ligne de miel naturel et produits apicoles artisanaux. Il intègre la gestion du panier, la présentation détaillée des produits et une expérience utilisateur fluide.`,
+        role: `Développeur Full-Stack <br/>
+        - Conception et développement complet de la plateforme e-commerce sous Laravel.<br/>
+        - Gestion de la base de données MySQL, des produits apicoles et des commandes.<br/>
+        - Intégration du design responsive avec Blade et Tailwind CSS.`,
+        techStack: ['Laravel', 'PHP', 'Blade', 'Tailwind CSS', 'MySQL'],
         thumbnail: '/projects/images/protfolio_projets_images/miel_1.png',
         longThumbnail: '/projects/images/protfolio_projets_images/miel_1.png',
         images: [
@@ -324,10 +324,10 @@ export const PROJECTS: IProject[] = [
         year: 2024,
         description: `Application web e-commerce spécialisée dans les produits de soins, beauté et parapharmacie. Propose un filtrage par catégorie/marque, une recherche intelligente et la gestion complète des commandes.`,
         role: `Développeur Full-Stack <br/>
-        - Développement des fonctionnalités e-commerce (catalogue, filtres, panier, commande).<br/>
-        - Conception d'un design responsive adapté aux mobiles et ordinateurs.<br/>
-        - Intégration de la gestion du stock et des catégories.`,
-        techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Redux'],
+        - Développement complet avec React (frontend) et Express.js (backend Node.js).<br/>
+        - Gestion des catégories de parapharmacie, des produits de soin et du panier d'achat.<br/>
+        - Implémentation des API REST et du processus de commande.`,
+        techStack: ['React', 'Express.js', 'Node.js', 'Tailwind CSS', 'MongoDB'],
         thumbnail: '/projects/images/protfolio_projets_images/paraPharmacie_1.png',
         longThumbnail: '/projects/images/protfolio_projets_images/paraPharmacie_1.png',
         images: [
@@ -341,12 +341,12 @@ export const PROJECTS: IProject[] = [
         title: 'Modern E-Store',
         slug: 'modern-estore',
         year: 2024,
-        description: `Boutique en ligne moderne conçue pour une expérience d'achat optimale, incluant la navigation par catégories, la gestion du panier en temps réel et un design sobre et épuré.`,
+        description: `Boutique en ligne moderne conçue avec React et Express.js pour une expérience d'achat optimale, incluant la navigation par catégories, la gestion du panier en temps réel et un design sobre et épuré.`,
         role: `Développeur Full-Stack <br/>
-        - Conception de l'architecture frontend et backend.<br/>
-        - Implémentation de la gestion d'état globale pour le panier.<br/>
-        - Intégration d'un tunnel d'achat fluide.`,
-        techStack: ['React', 'Next.js', 'Tailwind CSS', 'Node.js'],
+        - Développement de la boutique en ligne avec React pour le frontend et Express.js pour le backend.<br/>
+        - Implémentation du système de panier en temps réel et filtres produits.<br/>
+        - Intégration du serveur API Node.js et de la base de données.`,
+        techStack: ['React', 'Express.js', 'Node.js', 'Tailwind CSS', 'MongoDB'],
         thumbnail: '/projects/images/protfolio_projets_images/store_1.png',
         longThumbnail: '/projects/images/protfolio_projets_images/store_1.png',
         images: [
@@ -360,12 +360,12 @@ export const PROJECTS: IProject[] = [
         title: 'Sweet Delights',
         slug: 'sweet-delights',
         year: 2024,
-        description: `Plateforme vitrine et e-commerce gourmande pour une pâtisserie artisanale. Mise en valeur des créations pâtissières, commande en ligne et réservation personnalisée.`,
-        role: `Développeur Frontend <br/>
-        - Réalisation de l'interface visuelle attrayante et gourmande.<br/>
-        - Animations fluides pour la mise en avant des pâtisseries.<br/>
-        - Formulaire de commande et réservation sur mesure.`,
-        techStack: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+        description: `Plateforme vitrine et e-commerce gourmande pour une pâtisserie artisanale, développée sous WordPress avec Elementor. Mise en valeur des créations pâtissières et commande en ligne.`,
+        role: `Développeur WordPress / CMS <br/>
+        - Création du site vitrine et e-commerce gourmand sous WordPress.<br/>
+        - Personnalisation avancée des mises en page avec Elementor.<br/>
+        - Configuration de WooCommerce et mise en valeur visuelle des pâtisseries.`,
+        techStack: ['WordPress', 'Elementor', 'WooCommerce', 'PHP', 'CSS3'],
         thumbnail: '/projects/images/protfolio_projets_images/sweet_1.png',
         longThumbnail: '/projects/images/protfolio_projets_images/sweet_1.png',
         images: [
