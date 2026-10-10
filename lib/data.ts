@@ -287,6 +287,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Cyberflix',
         slug: 'cyberflix',
+        liveUrl: 'https://cyber-flix-mu.vercel.app/',
         year: 2024,
         description: `Plateforme de streaming de films et séries offrant un catalogue complet, le visionnage de bandes-annonces, la recherche dynamique et des recommandations personnalisées avec une interface utilisateur moderne et réactive.`,
         role: `Développeur Full-Stack <br/>
@@ -305,6 +306,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Miel Artisan',
         slug: 'miel-artisan',
+        liveUrl: 'https://mielyoussef.com/',
         year: 2024,
         description: `Site e-commerce élégant développé avec Laravel, dédié à la présentation et la vente en ligne de miel naturel et produits apicoles artisanaux. Il intègre la gestion du panier, la présentation détaillée des produits et une expérience utilisateur fluide.`,
         role: `Développeur Full-Stack <br/>
@@ -323,6 +325,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'ParaPharmacie',
         slug: 'parapharmacie',
+        liveUrl: 'https://parapharmacie-platform.vercel.app/',
         year: 2024,
         description: `Application web e-commerce spécialisée dans les produits de soins, beauté et parapharmacie. Propose un filtrage par catégorie/marque, une recherche intelligente et la gestion complète des commandes.`,
         role: `Développeur Full-Stack <br/>
@@ -342,6 +345,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Modern E-Store',
         slug: 'modern-estore',
+        liveUrl: 'https://accessories-store-ten.vercel.app/',
         year: 2024,
         description: `Boutique en ligne moderne conçue avec React et Express.js pour une expérience d'achat optimale, incluant la navigation par catégories, la gestion du panier en temps réel et un design sobre et épuré.`,
         role: `Développeur Full-Stack <br/>
@@ -361,6 +365,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Sweet Delights',
         slug: 'sweet-delights',
+        liveUrl: 'https://sweetsmiledentaire.com/',
         year: 2024,
         description: `Plateforme vitrine et e-commerce gourmande pour une pâtisserie artisanale, développée sous WordPress avec Elementor. Mise en valeur des créations pâtissières et commande en ligne.`,
         role: `Développeur WordPress / CMS <br/>
