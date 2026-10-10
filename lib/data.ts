@@ -1,13 +1,13 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'youssefbenelmadani20@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi WEBSOUK, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    oldPortfolio: 'https://github.com/Ybenelmadani',
+    upworkProfile: 'mailto:youssefbenelmadani20@gmail.com',
 };
 
 export const SOCIAL_LINKS = [

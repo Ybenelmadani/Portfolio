@@ -2,6 +2,7 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Image from 'next/image';
 import React from 'react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -64,9 +65,18 @@ const AboutMe = () => {
                     This is me.
                 </p>
 
-                <div className="grid md:grid-cols-12 mt-9">
-                    <div className="md:col-span-5">
-                        <p className="text-5xl slide-up-and-fade">
+                <div className="grid md:grid-cols-12 gap-8 items-center mt-9">
+                    <div className="md:col-span-5 space-y-6">
+                        <div className="relative w-full max-w-[320px] aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-white/10 slide-up-and-fade">
+                            <Image
+                                src="/youssef.jpg"
+                                alt="Youssef Benelmadani - WEBSOUK"
+                                fill
+                                className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                                priority
+                            />
+                        </div>
+                        <p className="text-4xl md:text-5xl font-anton slide-up-and-fade">
                             Hi, we are WEBSOUK.
                         </p>
                     </div>
@@ -79,11 +89,11 @@ const AboutMe = () => {
                                 user experiences.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                My approach focuses on creating scalable,
+                                Our approach focuses on creating scalable,
                                 high-performing solutions tailored to both user
                                 needs and business objectives. By prioritizing
                                 performance, accessibility, and responsiveness,
-                                I strive to deliver experiences that not only
+                                we strive to deliver experiences that not only
                                 engage users but also drive tangible results.
                             </p>
                         </div>
