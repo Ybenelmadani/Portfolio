@@ -109,6 +109,7 @@ export const MY_STACK = {
 };
 
 export const PROJECTS: IProject[] = [
+    /*
     {
         title: 'Electro EV',
         slug: 'electro-ev',
@@ -282,6 +283,7 @@ export const PROJECTS: IProject[] = [
             I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
         role: ``,
     },
+    */
     {
         title: 'Cyberflix',
         slug: 'cyberflix',
