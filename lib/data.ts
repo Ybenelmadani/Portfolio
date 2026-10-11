@@ -36,38 +36,46 @@ export const MY_STACK = {
             icon: '/logo/next.png',
         },
         {
-            name: 'Redux',
-            icon: '/logo/redux.png',
+            name: 'WordPress',
+            icon: '/logo/wordpress.svg',
+        },
+        {
+            name: 'Elementor',
+            icon: '/logo/elementor.svg',
+        },
+        {
+            name: 'GoHighLevel',
+            icon: '/logo/gohighlevel.svg',
+        },
+        {
+            name: 'Systeme.io',
+            icon: '/logo/systemeio.svg',
         },
         {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
         },
         {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'Sass',
-            icon: '/logo/sass.png',
-        },
-        {
             name: 'Bootstrap',
             icon: '/logo/bootstrap.svg',
+        },
+        {
+            name: 'Redux',
+            icon: '/logo/redux.png',
         },
     ],
     backend: [
         {
-            name: 'Node.js',
-            icon: '/logo/node.png',
+            name: 'Laravel',
+            icon: '/logo/laravel.svg',
         },
         {
-            name: 'NestJS',
-            icon: '/logo/nest.svg',
+            name: 'Python',
+            icon: '/logo/python.svg',
+        },
+        {
+            name: 'Node.js',
+            icon: '/logo/node.png',
         },
         {
             name: 'Express.js',
