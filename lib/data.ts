@@ -11,10 +11,15 @@ export const GENERAL_INFO = {
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: 'https://github.com/Ybenelmadani' },
+    {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/youssef-benelmadani-4b1889380/',
+    },
+    {
+        name: 'instagram',
+        url: 'https://www.instagram.com/websouk_/?utm_source=ig_web_button_share_sheet',
+    },
 ];
 
 export const MY_STACK = {

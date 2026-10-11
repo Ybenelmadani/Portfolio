@@ -7,17 +7,25 @@ interface RepoStats {
 }
 
 const Footer = async () => {
-    const repoStats = await fetch(
-        'https://api.github.com/repos/tajmirul/portfolio-2.0',
-        {
-            next: {
-                revalidate: 60 * 60, // 1 hour
+    let stargazers_count = 0;
+    let forks_count = 0;
+    try {
+        const repoStats = await fetch(
+            'https://api.github.com/repos/Ybenelmadani/Portfolio',
+            {
+                next: {
+                    revalidate: 60 * 60, // 1 hour
+                },
             },
-        },
-    );
-
-    const { stargazers_count, forks_count } =
-        (await repoStats.json()) as RepoStats;
+        );
+        if (repoStats.ok) {
+            const data = (await repoStats.json()) as RepoStats;
+            stargazers_count = data.stargazers_count || 0;
+            forks_count = data.forks_count || 0;
+        }
+    } catch {
+        // ignore fetch failures
+    }
 
     return (
         <footer className="text-center pb-5" id="contact">
@@ -32,11 +40,11 @@ const Footer = async () => {
 
                 <div className="">
                     <a
-                        href="https://github.com/Tajmirul/portfolio-2.0"
+                        href="https://github.com/Ybenelmadani/Portfolio"
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Design & built by Tajmirul Islam
+                        Designed & built by WEBSOUK
                         <div className="flex items-center justify-center gap-5 pt-1">
                             <span className="flex items-center gap-2">
                                 <Star size={18} /> {stargazers_count}
