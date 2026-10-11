@@ -67,12 +67,12 @@ const AboutMe = () => {
 
                 <div className="grid md:grid-cols-12 gap-8 items-center mt-9">
                     <div className="md:col-span-5 space-y-6">
-                        <div className="relative w-full max-w-[320px] aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-white/10 slide-up-and-fade">
+                        <div className="relative w-full max-w-[280px] sm:max-w-[320px] aspect-square rounded-full overflow-hidden shadow-2xl drop-shadow-[0_10px_25px_rgba(33,117,155,0.25)] slide-up-and-fade">
                             <Image
-                                src="/youssef.jpg"
-                                alt="Youssef Benelmadani - WEBSOUK"
+                                src="/websouk-logo.png"
+                                alt="WEBSOUK - Creative Digital Solutions"
                                 fill
-                                className="object-cover object-center hover:scale-105 transition-transform duration-500"
+                                className="object-contain hover:scale-105 transition-transform duration-500"
                                 priority
                             />
                         </div>
