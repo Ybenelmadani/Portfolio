@@ -72,7 +72,7 @@ const AboutMe = () => {
                                 src="/youssef.jpg"
                                 alt="Youssef Benelmadani - WEBSOUK"
                                 fill
-                                className="object-cover object-top hover:scale-105 transition-transform duration-500"
+                                className="object-cover object-center hover:scale-105 transition-transform duration-500"
                                 priority
                             />
                         </div>
