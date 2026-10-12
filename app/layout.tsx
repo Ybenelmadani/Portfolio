@@ -31,6 +31,13 @@ const robotoFlex = Roboto_Flex({
 export const metadata: Metadata = {
     title: 'Portfolio - WEBSOUK',
     description: 'Portfolio of WEBSOUK - Full Stack Web Developers',
+    icons: {
+        icon: [
+            { url: '/favicon.ico' },
+            { url: '/icon.png', type: 'image/png' },
+        ],
+        apple: [{ url: '/apple-touch-icon.png' }],
+    },
 };
 
 export default function RootLayout({
